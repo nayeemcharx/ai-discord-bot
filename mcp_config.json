@@ -1,0 +1,10 @@
+{
+  "servers": [
+    {
+      "name": "discord-mcp-server",
+      "docker": {
+        "image": "discord-mcp:latest"
+      }
+    }
+  ]
+}
