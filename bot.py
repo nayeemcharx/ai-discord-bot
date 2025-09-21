@@ -438,7 +438,7 @@ Context:
 - User: {context.author.id if hasattr(context, 'author') else 'Unknown'}
 
 You have access to the recent conversation history. Use this context to provide more relevant and coherent responses.
-Use tools when appropriate to help the user. Keep responses conversational and Discord-friendly."""
+Use tools when appropriate to help the user. Keep responses conversational and Discord-friendly.And if there is an emote just interpret it with the texts it contain"""
             
             # UPDATED: Get conversation history with new message instead of single message
             messages = self.get_conversation_messages(conversation_key, user_message)
